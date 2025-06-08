@@ -15,11 +15,11 @@ export default function Home() {
   const renderView = () => {
     switch (role) {
       case 'operative':
-        return <p>Operative Upload Interface (Photos, Notes, Name, Dog Fouling)</p>;
+        return <p>Operative Upload: Address, Name, Photos, Dog Fouling</p>;
       case 'admin':
-        return <p>Admin Dashboard: View/Edit Uploads</p>;
+        return <p>Admin Dashboard: Edit Uploads, View All</p>;
       case 'client':
-        return <p>Client Portal: RAG Summary, View Uploads, Weather</p>;
+        return <p>Client Panel: RAG Summary, Latest Uploads, Download</p>;
       default:
         return renderLogin();
     }
