@@ -19,9 +19,9 @@ export default function Home() {
   };
 
   const renderPortal = () => {
-    if (role === 'operative') return <p>Operative Upload Portal - Upload photos, enter name, dog fouling</p>;
-    if (role === 'admin') return <p>Admin Dashboard - Edit dates, view uploads, flag dog fouling</p>;
-    if (role === 'client') return <p>Client Portal - RAG summary, last 2 uploads, weather, flags</p>;
+    if (role === 'operative') return <p>📸 Operative Upload: Address, name, photos, dog fouling flag</p>;
+    if (role === 'admin') return <p>🛠 Admin Panel: View/edit visits, flag sites, dog fouling alerts</p>;
+    if (role === 'client') return <p>📊 Client Portal: RAG chart, 2 recent uploads, CSV export, weather</p>;
     return null;
   };
 
